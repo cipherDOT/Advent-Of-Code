@@ -1,3 +1,4 @@
+# Advent of Code 2020 day 2
 
 # -------------------------------------------------------part one------------------------------------------------------------------#
 
@@ -16,10 +17,10 @@ def valid_part1(string):
 with open('input.txt') as f:
     data = [i.strip() for i in f.readlines()]
 
-valid_p = 0
-non_valid_p = 0
+valid_p = 0  # valid passwords
+non_valid_p = 0  # non valid passwords
 
-for i, p in enumerate(data):
+for p in data:
     if valid_part1(p):
         valid_p += 1
     else:
@@ -54,7 +55,7 @@ with open('input.txt') as f:
 crct = 0
 wrng = 0
 
-for i, p in enumerate(data):
+for p in data:
     if valid_part2(p) == 1:
         crct += 1
     else:
