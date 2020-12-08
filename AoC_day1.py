@@ -2,6 +2,8 @@
 
 def part1(arr):
     for num in arr:
+        # we only check whether the other number is in the array
+        # we don't need to check the whole array again, for this case
         if 2020 - num in arr:
             print('part1 : ' + str(num * (2020 - num)))
             break
