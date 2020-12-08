@@ -10,7 +10,7 @@ to the repository
 - [X] day 1
 - [X] day 2
 - [X] day 3
-- [ ] day 4
-  - [X] part 1
-  - [ ] part 2
+- [X] day 4
 - [ ] day 5
+  - [ ] part 1
+  - [ ] part 2
