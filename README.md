@@ -7,8 +7,10 @@ This is my first year of solving advent of code puzzles
 and I really like them. My solutions to the puzzles have been added
 to the repository
 
-- [ ] day 1
-- [ ] day 2
-- [ ] day 3
+- [X] day 1
+- [X] day 2
+- [X] day 3
 - [ ] day 4
+  - [X] part 1
+  - [ ] part 2
 - [ ] day 5
