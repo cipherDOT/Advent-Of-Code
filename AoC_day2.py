@@ -14,7 +14,7 @@ def valid_part1(string):
 
 
 with open('input.txt') as f:
-    data = [i for i in f.readlines()]
+    data = [i.strip() for i in f.readlines()]
 
 valid_p = 0
 non_valid_p = 0
@@ -34,6 +34,8 @@ print('\n')
 
 # we again split the password string to get the values
 # we do both AND operation and OR operation since they output different results
+
+
 def valid_part2(string):
     policy, password = string.split(':')
     instances, letter = policy.split(' ')
@@ -47,7 +49,7 @@ def valid_part2(string):
 
 
 with open('input.txt') as f:
-    data = [i for i in f.readlines()]
+    data = [i.strip() for i in f.readlines()]
 
 crct = 0
 wrng = 0
