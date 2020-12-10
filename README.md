@@ -12,7 +12,7 @@ to the repository
 - [X] day 3
 - [X] day 4
 - [X] day 5
-- [ ] day 6
+- [X] day 6
 - [ ] day 7
 - [ ] day 8
 - [ ] day 9
