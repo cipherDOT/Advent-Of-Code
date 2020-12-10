@@ -10,6 +10,7 @@ bids = []
 
 # result array to compare and find the single key
 result = []
+myid = 0
 
 
 # Pointer object to move up, down, left and right in the plane
@@ -62,6 +63,7 @@ for order in data:
 
 # sorting the ids for convenience and for the ease to work with
 bids.sort()
+highest_id = max(bids)
 
 # getting the ids of the seats that have not been occupied
 for bid in ids:
@@ -71,5 +73,8 @@ for bid in ids:
 # finding that one element that doesn,t match the order of n, n + 1, n + 2...
 for i in range(1, len(result)):
     if result[i] != result[i - 1] + 1:
-        print(result[i])
+        myid = result[i]
         break
+
+print('highest id : ' + str(highest_id))
+print('my id : ' + str(myid))
