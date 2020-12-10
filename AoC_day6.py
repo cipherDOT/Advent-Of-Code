@@ -88,3 +88,4 @@ for key in data:
         total += sol(key)
 
 print('part 2 : ' + str(total))
+
