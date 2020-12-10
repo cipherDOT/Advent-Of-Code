@@ -1,3 +1,4 @@
+# Advent Of Code 2020 day 5
 
 # variables to represent the rows and colomns
 rows = [0, 128]
